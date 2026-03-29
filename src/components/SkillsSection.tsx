@@ -15,8 +15,12 @@ const skillCategories = [
       { name: "NumPy", level: 85 },
       { name: "Scikit-learn", level: 80 },
       { name: "YOLOv8", level: 75 },
-      { name: "Power BI", level: 79 },
-      { name: "Tableau", level: 90 },
+    ],
+  },
+  {
+    title: "Tool / Software",
+    skills: [
+      { name: "Excel", level: 85 },
     ],
   },
 ];
