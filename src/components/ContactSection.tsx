@@ -84,8 +84,8 @@ const ContactSection = () => {
               onChange={(e) => setForm({ ...form, message: e.target.value })}
               required
             />
-            <Button type="submit" className="w-full gradient-cta border-0 text-secondary-foreground hover:opacity-90">
-              Send Message
+            <Button type="submit" disabled={sending} className="w-full gradient-cta border-0 text-secondary-foreground hover:opacity-90">
+              {sending ? "Sending..." : "Send Message"}
             </Button>
           </form>
         </div>
