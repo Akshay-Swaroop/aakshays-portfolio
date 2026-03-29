@@ -54,8 +54,25 @@ const certificates = [
     date: "2023",
     image: certHardware,
   },
+  {
+    title: "Fundamentals of Network Communication",
+    issuer: "University of Colorado",
+    date: "2023",
+    image: certNetworkComm,
+  },
+  {
+    title: "Effective Problem-Solving and Decision-Making",
+    issuer: "UCI (Division of Continuing Education)",
+    date: "2023",
+    image: certProblemSolving,
+  },
+  {
+    title: "The Science of Well-Being for Teens",
+    issuer: "Yale",
+    date: "2025",
+    image: certWellbeing,
+  },
 ];
-
 const CertificatesSection = () => {
   return (
     <section id="certificates" className="py-20">
