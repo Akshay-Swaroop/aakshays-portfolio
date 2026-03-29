@@ -23,7 +23,6 @@ const skillCategories = [
       { name: "Machine Learning", level: 85 },
       { name: "Deep Learning", level: 80 },
       { name: "Computer Vision", level: 78 },
-      { name: "NLP", level: 75 },
     ],
   },
 ];
