@@ -7,24 +7,49 @@ import {
 } from "@/components/ui/carousel";
 import { Award } from "lucide-react";
 
+import certPython from "@/assets/cert-python.png";
+import certAndroid from "@/assets/cert-android.jpeg";
+import certNetworking from "@/assets/cert-networking.jpeg";
+import certHtml5 from "@/assets/cert-html5.jpeg";
+import certHtmlCss from "@/assets/cert-html-css.jpeg";
+import certHardware from "@/assets/cert-hardware.jpeg";
+
 const certificates = [
   {
-    title: "Certificate Title 1",
-    issuer: "Issuing Organization",
+    title: "Advanced Python Programming",
+    issuer: "Innomatics Research Labs",
     date: "2025",
-    image: "/placeholder.svg",
+    image: certPython,
   },
   {
-    title: "Certificate Title 2",
-    issuer: "Issuing Organization",
-    date: "2025",
-    image: "/placeholder.svg",
+    title: "Android Developer Virtual Internship",
+    issuer: "AICTE",
+    date: "2023",
+    image: certAndroid,
   },
   {
-    title: "Certificate Title 3",
-    issuer: "Issuing Organization",
-    date: "2024",
-    image: "/placeholder.svg",
+    title: "Networking and Web Technology",
+    issuer: "Infosys",
+    date: "2025",
+    image: certNetworking,
+  },
+  {
+    title: "HTML5 - The Language",
+    issuer: "Infosys",
+    date: "2025",
+    image: certHtml5,
+  },
+  {
+    title: "HTML and CSS in Depth",
+    issuer: "Meta",
+    date: "2023",
+    image: certHtmlCss,
+  },
+  {
+    title: "Hardware and Operating Systems",
+    issuer: "IBM",
+    date: "2023",
+    image: certHardware,
   },
 ];
 
