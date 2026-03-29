@@ -21,6 +21,8 @@ const skillCategories = [
     title: "Tool / Software",
     skills: [
       { name: "Excel", level: 85 },
+      { name: "Tableau", level: 89 },
+      { name: "Power BI", level: 85 },
     ],
   },
 ];
