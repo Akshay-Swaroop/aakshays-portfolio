@@ -13,6 +13,9 @@ import certNetworking from "@/assets/cert-networking.jpeg";
 import certHtml5 from "@/assets/cert-html5.jpeg";
 import certHtmlCss from "@/assets/cert-html-css.jpeg";
 import certHardware from "@/assets/cert-hardware.jpeg";
+import certNetworkComm from "@/assets/cert-network-comm.jpeg";
+import certProblemSolving from "@/assets/cert-problem-solving.jpeg";
+import certWellbeing from "@/assets/cert-wellbeing.jpeg";
 
 const certificates = [
   {
