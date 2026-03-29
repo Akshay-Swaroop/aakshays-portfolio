@@ -25,6 +25,13 @@ const skillCategories = [
       { name: "Computer Vision", level: 78 },
     ],
   },
+  {
+    title: "Tools",
+    skills: [
+      { name: "Power BI", level: 79 },
+      { name: "Tableau", level: 90 },
+    ],
+  },
 ];
 
 const SkillsSection = () => {
