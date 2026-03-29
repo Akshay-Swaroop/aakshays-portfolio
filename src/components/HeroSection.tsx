@@ -22,9 +22,8 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-primary font-heading font-semibold">
             Data Science & AI Enthusiast | ML Engineer
           </p>
-          <p className="text-muted-foreground max-w-lg leading-relaxed">
-            Passionate about solving real-world problems using data-driven approaches.
-            Specializing in Machine Learning, Deep Learning, Computer Vision, and NLP.
+          <p className="max-w-lg leading-relaxed text-sm font-serif text-muted-foreground border-secondary">
+            Passionate about solving real-world problems using data-driven approaches. Specializing in Data Science, Machine Learning, Deep Learning , Computer Vision and Data Analysis.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-2">
