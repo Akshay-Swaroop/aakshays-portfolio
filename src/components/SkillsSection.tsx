@@ -15,19 +15,6 @@ const skillCategories = [
       { name: "NumPy", level: 85 },
       { name: "Scikit-learn", level: 80 },
       { name: "YOLOv8", level: 75 },
-    ],
-  },
-  {
-    title: "Domains",
-    skills: [
-      { name: "Machine Learning", level: 85 },
-      { name: "Deep Learning", level: 80 },
-      { name: "Computer Vision", level: 78 },
-    ],
-  },
-  {
-    title: "Tools",
-    skills: [
       { name: "Power BI", level: 79 },
       { name: "Tableau", level: 90 },
     ],
