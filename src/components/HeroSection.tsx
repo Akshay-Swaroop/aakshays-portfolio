@@ -1,4 +1,4 @@
-const profileImg = "https://i.postimg.cc/c1Mmy4WJ/Whats-App-Image-2026-03-29-at-12-48-40.jpg";
+import profileImg from "@/assets/profile.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
