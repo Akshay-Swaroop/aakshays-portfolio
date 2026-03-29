@@ -59,7 +59,7 @@ const HeroSection = () => {
               alt="Akshay A - Data Science & AI Enthusiast"
               width={512}
               height={512}
-              className="relative z-10 w-full h-full object-cover rounded-full border-4 border-primary/20 shadow-2xl"
+              className="relative z-10 w-full h-full object-cover object-top rounded-full border-4 border-primary/20 shadow-2xl"
             />
           </div>
         </div>
