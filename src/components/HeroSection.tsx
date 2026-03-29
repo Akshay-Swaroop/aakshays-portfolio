@@ -20,7 +20,7 @@ const HeroSection = () => {
             Akshay A
           </h1>
           <p className="text-lg md:text-xl text-primary font-heading font-semibold">
-            Data Science & AI Enthusiast | ML Engineer
+            Aspiring Data Science & AI Enthusiast | ML Engineer
           </p>
           <p className="max-w-lg leading-relaxed text-sm font-serif text-muted-foreground border-secondary">
             Passionate about solving real-world problems using data-driven approaches. Specializing in Data Science, Machine Learning, Deep Learning , Computer Vision and Data Analysis.
