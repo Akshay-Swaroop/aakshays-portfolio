@@ -4,6 +4,8 @@ const skillCategories = [
     skills: [
       { name: "Python", level: 90 },
       { name: "SQL", level: 80 },
+      { name: "Java", level: 70 },
+      { name: "C", level: 75 },
     ],
   },
   {
