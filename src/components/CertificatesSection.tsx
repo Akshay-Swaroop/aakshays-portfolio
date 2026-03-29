@@ -13,6 +13,9 @@ import certNetworking from "@/assets/cert-networking.jpeg";
 import certHtml5 from "@/assets/cert-html5.jpeg";
 import certHtmlCss from "@/assets/cert-html-css.jpeg";
 import certHardware from "@/assets/cert-hardware.jpeg";
+import certNetworkComm from "@/assets/cert-network-comm.jpeg";
+import certProblemSolving from "@/assets/cert-problem-solving.jpeg";
+import certWellbeing from "@/assets/cert-wellbeing.jpeg";
 
 const certificates = [
   {
@@ -51,8 +54,25 @@ const certificates = [
     date: "2023",
     image: certHardware,
   },
+  {
+    title: "Fundamentals of Network Communication",
+    issuer: "University of Colorado",
+    date: "2023",
+    image: certNetworkComm,
+  },
+  {
+    title: "Effective Problem-Solving and Decision-Making",
+    issuer: "UCI (Division of Continuing Education)",
+    date: "2023",
+    image: certProblemSolving,
+  },
+  {
+    title: "The Science of Well-Being for Teens",
+    issuer: "Yale",
+    date: "2025",
+    image: certWellbeing,
+  },
 ];
-
 const CertificatesSection = () => {
   return (
     <section id="certificates" className="py-20">
