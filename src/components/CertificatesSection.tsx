@@ -16,6 +16,9 @@ import certHardware from "@/assets/cert-hardware.jpeg";
 import certNetworkComm from "@/assets/cert-network-comm.jpeg";
 import certProblemSolving from "@/assets/cert-problem-solving.jpeg";
 import certWellbeing from "@/assets/cert-wellbeing.jpeg";
+import certAzureMl from "@/assets/cert-azure-ml.png";
+import certAwsAiml from "@/assets/cert-aws-aiml.png";
+import certAwsMlFundamentals from "@/assets/cert-aws-mlfundamentals.png";
 
 const certificates = [
   {
@@ -71,6 +74,24 @@ const certificates = [
     issuer: "Yale",
     date: "2025",
     image: certWellbeing,
+  },
+  {
+    title: "Microsoft Azure Machine Learning Fundamentals",
+    issuer: "LinkedIn Learning",
+    date: "2026",
+    image: certAzureMl,
+  },
+  {
+    title: "AWS Partner: Artificial Intelligence and Machine Learning (AI/ML) on AWS (Business)",
+    issuer: "AWS Training & Certification",
+    date: "2026",
+    image: certAwsAiml,
+  },
+  {
+    title: "Fundamentals of Machine Learning and Artificial Intelligence",
+    issuer: "AWS Training & Certification",
+    date: "2026",
+    image: certAwsMlFundamentals,
   },
 ];
 const CertificatesSection = () => {
