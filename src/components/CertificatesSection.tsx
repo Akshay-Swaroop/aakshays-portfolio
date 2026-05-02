@@ -22,6 +22,24 @@ import certAwsMlFundamentals from "@/assets/cert-aws-mlfundamentals.png";
 
 const certificates = [
   {
+    title: "Microsoft Azure Machine Learning Fundamentals",
+    issuer: "LinkedIn Learning",
+    date: "2026",
+    image: certAzureMl,
+  },
+  {
+    title: "AWS Partner: Artificial Intelligence and Machine Learning (AI/ML) on AWS (Business)",
+    issuer: "AWS Training & Certification",
+    date: "2026",
+    image: certAwsAiml,
+  },
+  {
+    title: "Fundamentals of Machine Learning and Artificial Intelligence",
+    issuer: "AWS Training & Certification",
+    date: "2026",
+    image: certAwsMlFundamentals,
+  },
+  {
     title: "Advanced Python Programming",
     issuer: "Innomatics Research Labs",
     date: "2025",
@@ -74,24 +92,6 @@ const certificates = [
     issuer: "Yale",
     date: "2025",
     image: certWellbeing,
-  },
-  {
-    title: "Microsoft Azure Machine Learning Fundamentals",
-    issuer: "LinkedIn Learning",
-    date: "2026",
-    image: certAzureMl,
-  },
-  {
-    title: "AWS Partner: Artificial Intelligence and Machine Learning (AI/ML) on AWS (Business)",
-    issuer: "AWS Training & Certification",
-    date: "2026",
-    image: certAwsAiml,
-  },
-  {
-    title: "Fundamentals of Machine Learning and Artificial Intelligence",
-    issuer: "AWS Training & Certification",
-    date: "2026",
-    image: certAwsMlFundamentals,
   },
 ];
 const CertificatesSection = () => {
