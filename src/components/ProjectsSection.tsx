@@ -6,16 +6,19 @@ const projects = [
     title: "Real-Time Facial Emotion Recognition",
     desc: "A real-time system using YOLOv8 + InceptionV3 CNN that detects emotions from video streams with ~74% accuracy through data augmentation techniques.",
     stack: ["YOLOv8", "InceptionV3", "OpenCV", "Python"],
+    link: "https://github.com/Akshay-Swaroop/Advance-facial-emotions-detections",
   },
   {
     title: "Emotion Track – Sentiment Analysis",
     desc: "NLP-based emotion classification system with text preprocessing, tokenization, and feature extraction. Presented at academic events.",
     stack: ["NLP", "Python", "Scikit-learn", "NLTK"],
+    link: "https://github.com/Akshay-Swaroop/EmotionTrack-SentimentAnalysis",
   },
   {
     title: "Real-Time Object Detection System",
     desc: "YOLOv8 + Flask + OpenCV system achieving 20–30 FPS real-time detection with dynamic model switching and a user-friendly UI.",
     stack: ["YOLOv8", "Flask", "OpenCV", "Python"],
+    link: "https://github.com/akshayswaroop1112",
   },
 ];
 
@@ -44,7 +47,7 @@ const ProjectsSection = () => {
                 ))}
               </div>
               <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80 p-0 h-auto" asChild>
-                <a href="https://github.com/akshayswaroop1112" target="_blank" rel="noopener noreferrer">
+                <a href={proj.link} target="_blank" rel="noopener noreferrer">
                   View on GitHub <ExternalLink size={14} className="ml-1" />
                 </a>
               </Button>
